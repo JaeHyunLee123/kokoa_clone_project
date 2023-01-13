@@ -1,0 +1,91 @@
+<!-- login page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation - Kokoa clone</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://kit.fontawesome.com/f51143ee06.js" crossorigin="anonymous"></script>
+</head>
+<body id="conversation-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- Wifi icon-->
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <!-- Battery icon-->
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <!-- Lightning icon-->
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+
+    <header class="alternative-screen-header">
+        <div class="alternative-screen-header__column">
+            <a href="chat.html">
+                <i class="fa-solid fa-angle-left fa-xl"></i>
+            </a>
+        </div>
+        <div class="alternative-screen-header__column">
+            <h1 class="alternative-screen-header__title">Chuu</h1>
+        </div>
+        <div class="alternative-screen-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+            <span><i class="fa-solid fa-bars fa-xl"></i></span>
+        </div>        
+    </header>
+
+    <main class="main-screen main-conversation">
+        <div class="conversation__timestamp">
+            Friday, January 12, 2023
+        </div>
+
+        <div class="message-row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThIJvHY1-B6HPuMejQ2IyF7KWXrTVjmb-40A&usqp=CAU">
+            <div class="message-row__content">
+                <span class="message__author">Chuu</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message_time">21:42</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>  
+                    <span class="message_time">21:42</span>                                      
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-xl"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write message"/>
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
+    
+
+   
+</body>
+</html>
