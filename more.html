@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat - Kokoa clone</title>
+    <title>More - Kokoa clone</title>
 
     <link rel="stylesheet" href="css/styles.css">
 
@@ -32,33 +32,72 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">                    
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
             <span><i class="fa-solid fa-music fa-lg"></i></span>
             <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+            <div class="screen-header__icons__dot dot"></div>
         </div>
     </header>
 
-       <main class="main-screen">
+    <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
-                <img class="user-component__avatar user-component" 
-                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThIJvHY1-B6HPuMejQ2IyF7KWXrTVjmb-40A&usqp=CAU" />
+                <img class="user-component__avatar" src="https://avatars.githubusercontent.com/u/104538469?v=4" />
                 <div class="user-component__text">
-                    <h4 class="user-component__title">Chuu</h4>
-                    <h6 class="user-component__subtitle">Don't forget to watch 'Chuu can do it'!</h6>
+                    <h4 class="user-component__title">JaeHyun Lee</h4>
+                    <h6 class="user-component__subtitle">+82 010-4659-3752</h6>
                 </div>
             </div>
             <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <span class="badge">1</span>
+                <i class="fa-regular fa-message fa-2x"></i>
             </div>
         </div>
 
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-calendar-check"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-box-archive"></i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-face-smile"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-brush"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/ko/thumb/4/4a/%EC%8B%A0%EC%A7%B1%EA%B5%AC.png/230px-%EC%8B%A0%EC%A7%B1%EA%B5%AC.png">
+                    <span>Kokoa Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <img src="https://item.kakaocdn.net/do/fd0050f12764b403e7863c2c03cd4d2d7154249a3890514a43687a85e6b6cc82">
+                    <span>Kokoa Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/ko/thumb/4/4a/%EC%8B%A0%EC%A7%B1%EA%B5%AC.png/230px-%EC%8B%A0%EC%A7%B1%EA%B5%AC.png">
+                    <span>Kokoa Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <img src="https://item.kakaocdn.net/do/fd0050f12764b403e7863c2c03cd4d2d7154249a3890514a43687a85e6b6cc82">
+                    <span>Kokoa Story</span>
+                </div>
+            </div>
+        </div>
         
     </main>
+    
     <nav class="nav">
         <ul class="nav__list">
             <li class="nab__btn">
@@ -69,7 +108,7 @@
             <li class="nab__btn">
                 <a class="nav_link" href="chat.html">
                     <span class="nav_notification badge">1</span>
-                    <i class="fa-solid fa-comment fa-2x"></i>
+                    <i class="fa-regular fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nab__btn">
