@@ -35,3 +35,30 @@
 .friends-screen__channel__header span{
     font-size: 18px;    
 }
+
+@keyframes hide-splash-screen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
+
+#splash-screen{    
+    background-color: var(--yellow);
+
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    animation: hide-splash-screen 400ms ease-in-out forwards;
+    animation-delay: 800ms;
+}
