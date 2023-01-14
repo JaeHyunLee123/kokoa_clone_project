@@ -40,26 +40,28 @@
         </div>
     </header>
 
-    <main class="main-screen">
-        <div class="artist-information">
-            <img class="artist-information__image"
-                src="https://yt3.ggpht.com/ytc/AMLnZu8kC50ZFTmZb25PcG3fGOp7vkkd4c3IRqlCXRRx=s900-c-k-c0x00ffffff-no-rj" />
-                <span class="artist-information__name">Chuu</span>
-                <span class="artist-information__genre">K-pop</span>
-        </div>
+    <div class="artist-information">
+        <img class="artist-information__image"
+            src="https://yt3.ggpht.com/ytc/AMLnZu8kC50ZFTmZb25PcG3fGOp7vkkd4c3IRqlCXRRx=s900-c-k-c0x00ffffff-no-rj" />
+            <span class="artist-information__name">Chuu</span>
+            <span class="artist-information__genre">K-pop</span>
+    </div>
 
-        <div class="music-screen__buttons">
-            <button>Shuffle</button>
-            <button>
-              <i class="fa-solid fa-heart"></i>
-              <span>1320K</span>
-            </button>
-        </div>
+    <div class="music-screen__buttons">
+        <button>Shuffle</button>
+        <button>
+          <i class="fa-solid fa-heart"></i>
+          <span>1320K</span>
+        </button>
+    </div>
+
+    <main class="main-screen">     
 
         <div class="song-list">
             <div class="song-information">
-                <img class="song-information__image"
-                  src="#" />
+                <div class="song-information__image">
+                    <img src="https://image.bugsm.co.kr/album/images/200/201386/20138669.jpg?version=20220712055944.0"/>
+                </div>
                 <div class="song-information__text">
                   <span class="song-information__artist">Chuu • LOONA</span>
                   <span class="song-information__title">HEART ATTACK</span>
@@ -68,8 +70,9 @@
             </div>
         
             <div class="song-information">
-                <img class="song-information__image"
-                  src="#" />
+                <div class="song-information__image">
+                    <img src="https://image.bugsm.co.kr/album/images/200/40806/4080665.jpg?version=20221203010550.0"/>
+                </div>
                 <div class="song-information__text">
                   <span class="song-information__artist">Chuu</span>
                   <span class="song-information__title">CONFESSION</span>
@@ -78,8 +81,9 @@
             </div>
         
             <div class="song-information">
-                  <img class="song-information__image"
-                    src="#" />
+                <div class="song-information__image">
+                    <img src="https://image.bugsm.co.kr/album/images/200/40793/4079381.jpg?version=20221203003033.0"/>
+                </div>
                 <div class="song-information__text">
                   <span class="song-information__artist">Chuu</span>
                   <span class="song-information__title">ONE AND A HALF</span>
@@ -88,8 +92,9 @@
               </div>
           
             <div class="song-information">
-                <img class="song-information__image"
-                  src="#" />
+                <div class="song-information__image">
+                    <img src="https://image.bugsm.co.kr/album/images/200/202310/20231098.jpg?version=20221216004821.0"/>
+                </div>
                 <div class="song-information__text">
                   <span class="song-information__artist">LOONA</span>
                   <span class="song-information__title">BUTTERFLY</span>
@@ -97,19 +102,23 @@
                 <div class="song-information__icon"><i class="fa-solid fa-ellipsis-vertical fa-lg"></i></div>
             </div>
         </div>
-        <div class="music-screen__controler">
-            <div class="music-screen__controler__text">
-              <span class="music-screen__controler__artist">Chuu</span>
-              <span class="music-screen__controler__song">ONE AND A HALF</span>
-            </div>
-            <div class="music-screen__controler__buttons">
-              <i class="fa-solid fa-backward-step"></i>
-              <i class="fa-solid fa-pause fa-lg"></i>
-              <i class="fa-solid fa-forward-step"></i>
-            </div>
-          </div>
+
+
+        
         
     </main>
+
+    <div class="music-screen__controler">
+        <div class="music-screen__controler__text">
+          <span class="music-screen__controler__artist">Chuu</span>
+          <span class="music-screen__controler__song">ONE AND A HALF</span>
+        </div>
+        <div class="music-screen__controler__buttons">
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-solid fa-pause fa-lg"></i>
+          <i class="fa-solid fa-forward-step"></i>
+        </div>
+      </div>
     
     <nav class="nav">
         <ul class="nav__list">
@@ -139,6 +148,9 @@
     </nav>
     <div id="no-mobile">
         <span>Your screen is too big :(</span>
+    </div>
+    <div id="too-narrow">
+        <span>Your screen is too narrow :(</span>
     </div>
 </body>
 </html>

@@ -101,14 +101,23 @@
 
     background-color: white;
 
-    padding: 4px;
+    padding: 4px 15px;
     margin: 10px 0px;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     transition: box-shadow 300ms ease-in-out;
+}
+
+.song-information > div:first-child,
+.song-information > div:last-child{
+    width: 20%;
+}
+
+.song-information > div:nth-child(2){
+    width: 60%;
 }
 
 .song-information:hover{
@@ -116,16 +125,24 @@
 }
 
 .song-information__image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.song-information__image img{
     height: 50px;
     width: 50px;
-
-
     border-radius: 10px;
 }
 
 .song-information__text{
     display: flex;
     flex-direction: column;
+}
+
+.song-information__icon{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .song-information__artist{
@@ -143,7 +160,7 @@
 
 .music-screen__controler{
     height: 60px;
-    width: 100%;
+    width: 90%;
 
     border-radius: 30px;
 
@@ -157,6 +174,10 @@
     align-items: center;
 
     box-shadow: 0px 0px 8px black;
+
+    position: fixed;
+    bottom: 90px;
+    left:5%;
 }
 
 

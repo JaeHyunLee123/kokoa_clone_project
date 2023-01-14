@@ -27,7 +27,7 @@
 }
 
 .main-conversation{
-    margin-top: 150px;
+    margin-top: 110px;
 
     display: flex;
     flex-direction: column;
@@ -179,11 +179,10 @@
 .reply:focus-within button{
     opacity: 0;
     display: hidden;
-    width: 0px;
 }
 
 .reply input:focus{
     width: 90vw;
-    transform:translateX(-10%) translateY(-80px);
+    transform:translateX(-10.5%) translateY(-80px);
 }
 
