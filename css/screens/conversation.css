@@ -163,3 +163,27 @@
 .reply__column button i{
     opacity: 1;
 }
+
+.reply,
+.reply i,
+.reply button,
+.reply input{
+    transition: all 300ms ease-in-out;
+}
+
+.reply:focus-within{
+    transform: translateY(80px);
+}
+
+.reply:focus-within i,
+.reply:focus-within button{
+    opacity: 0;
+    display: hidden;
+    width: 0px;
+}
+
+.reply input:focus{
+    width: 90vw;
+    transform:translateX(-10%) translateY(-80px);
+}
+
