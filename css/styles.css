@@ -21,6 +21,7 @@
 @import "screens/settings.css";
 @import "screens/conversation.css";
 @import "screens/music.css";
+@import "screens/chat.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
