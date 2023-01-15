@@ -2,7 +2,7 @@
     text-align: center;
     display: block;
   
-    background-color: #fafafa;
+    background-color: var(--pastel-purple);
 
     font-size: 18px;
 
@@ -48,7 +48,7 @@
 }
 
 #splash-screen{    
-    background-color: var(--yellow);
+    background-color: var(--pastel-red);
 
     position: absolute;
     width: 100vw;
@@ -56,9 +56,17 @@
     top:0;
 
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
 
     animation: hide-splash-screen 400ms ease-in-out forwards;
     animation-delay: 800ms;
+    z-index: 60;
+}
+
+#splash-screen span{
+    font-weight: 600;
+    font-size: 100px;
+    color:white;
 }

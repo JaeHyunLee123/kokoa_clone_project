@@ -5,5 +5,13 @@
     
     --horizontal-space:25px;
 
-    --main-border: 2px solid rgba(0,0,0,0.2);
+    
+
+    --pastel-green: #e1f7d5;
+    --pastel-red: #ffbdbd;
+    --pastel-blue: #c9c9ff;
+    --pastel-purple: #f1cbff;
+    --pastel-yellow:#fffb96;
+
+    --main-border: 2px solid var(--pastel-green);
 }

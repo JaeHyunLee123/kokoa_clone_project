@@ -24,8 +24,15 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    
+}
+
+main{
+    height: 130vh;
 }
 
 .main-screen{
     padding: 0px var(--horizontal-space);
+    
 }
+

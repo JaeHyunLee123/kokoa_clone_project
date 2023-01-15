@@ -1,6 +1,6 @@
 
 .music-screen{
-    background-color: var(--yellow);
+    background-color: var(--pastel-green);
 }
 
 .music-screen > nav{
@@ -225,4 +225,8 @@
 
 .music-screen__controler__buttons i:nth-child(2):hover{
     transform: scaleY(1.6);
+}
+
+@media screen {
+    
 }

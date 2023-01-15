@@ -1,5 +1,5 @@
 .nav{
-    background-color: #f9f9fa;
+    background-color: var(--pastel-yellow);
     padding: 20px 50px;
     box-sizing: border-box;
     border-top: 1px solid rgba(0, 0, 0, 0.032);
@@ -7,6 +7,8 @@
     position:fixed;
     width: 100%;
     bottom:0;
+
+    z-index: 1;
 }
 
 .nav__list{

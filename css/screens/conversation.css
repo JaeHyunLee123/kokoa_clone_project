@@ -1,11 +1,11 @@
 #conversation-screen{
-    background-color: #abc1d1;
+    background-color: var(--pastel-blue);
     height: 1000vh;
 }
 #conversation-screen > .status-bar,
 #conversation-screen > .alternative-screen-header{
     position: fixed;
-    background-color: #abc1d1;
+    background-color: var(--pastel-blue);
 
 }
 
@@ -90,7 +90,7 @@
 }
 
 .message-row--own .message__bubble{
-    background-color: var(--yellow);
+    background-color: var(--pastel-yellow);
     border-top-right-radius: 0px;
     border-top-left-radius:15px;
     
@@ -157,7 +157,7 @@
 
     border: none;
     border-radius: 50%;
-    background-color: var(--yellow);
+    background-color: var(--pastel-yellow);
 }
 
 .reply__column button i{
